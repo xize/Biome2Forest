@@ -12,7 +12,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class biome2forest extends JavaPlugin {
 	Logger log = Logger.getLogger("Minecraft");
-	
 	@Override
 	public void onEnable() {
 		log.info("[Biome2Forest] has been enabled!");
