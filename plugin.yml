@@ -1,0 +1,15 @@
+name: Biome2Forest
+version: 1.0
+description: changes oceans and jungles to forests
+author: Xeph0re
+authors: [] 
+website:
+
+main: xize.biome2forest.Biome2Forest.biome2forest
+database: false
+depend: []
+softdepend: []
+
+commands:
+
+permissions:
