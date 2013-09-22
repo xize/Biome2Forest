@@ -5,8 +5,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.logging.Logger;
 
-import net.minecraft.server.v1_6_R2.BiomeBase;
-import net.minecraft.server.v1_6_R2.BiomeForest;
+import net.minecraft.server.v1_6_R3.BiomeBase;
+import net.minecraft.server.v1_6_R3.BiomeForest;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
