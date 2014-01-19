@@ -1,4 +1,4 @@
-package xize.biome2forest.Biome2Forest;
+package tv.mineinthebox.Biome2Forest;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
