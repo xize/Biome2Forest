@@ -1,17 +1,17 @@
-package tv.mineinthebox.Biome2Forest;
+package tv.mineinthebox.biomes;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.logging.Logger;
 
-import net.minecraft.server.v1_7_R1.BiomeBase;
-import net.minecraft.server.v1_7_R1.BiomeForest;
-import net.minecraft.server.v1_7_R1.BiomeTaiga;
+import net.minecraft.server.v1_7_R2.BiomeBase;
+import net.minecraft.server.v1_7_R2.BiomeForest;
+import net.minecraft.server.v1_7_R2.BiomeTaiga;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class biome2forest extends JavaPlugin {
+public class Biome2Forest extends JavaPlugin {
 	Logger log = Logger.getLogger("Minecraft");
 	@Override
 	public void onEnable() {

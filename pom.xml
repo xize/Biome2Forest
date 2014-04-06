@@ -1,14 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>tv.mineinthebox</groupId>
+	<groupId>tv.mineinthebox.Biome2Forest</groupId>
 	<artifactId>Biome2Forest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>${project.basedir}</sourceDirectory>
 		<resources>
 			<resource>
-				<directory>${project.basedir}</directory>
+				<targetPath>.</targetPath>
+				<filtering>true</filtering>
+				<directory>.</directory>
 				<includes>
 					<include>plugin.yml</include>
 				</includes>
@@ -38,4 +39,5 @@
 			<version>LATEST</version>
 		</dependency>
 	</dependencies>
+	<version>1.0</version>
 </project>

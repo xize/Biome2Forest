@@ -1,11 +1,11 @@
 name: Biome2Forest
-version: {project.version}
+version: ${project.version}
 description: changes oceans and jungles to forests
 author: Xeph0re
 authors: [] 
 website:
 
-main: tv.mineinthebox.Biome2Forest.biome2forest
+main: tv.mineinthebox.biomes.Biome2Forest
 database: false
 depend: []
 softdepend: []
